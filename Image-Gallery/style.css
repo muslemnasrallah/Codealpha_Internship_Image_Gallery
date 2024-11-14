@@ -1,0 +1,29 @@
+#header {
+    text-align: center;
+}
+img {
+    width: 90%;
+    height: 50%;
+}
+#Gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    background-color: transparent;
+    color: black;
+    border: none;
+}
+button:hover {
+    background-color: black;
+    color: aliceblue;
+}
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+img:hover {
+    cursor: pointer;
+
+}  

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 id="header">
+        Image Gallery
+    </h1>
+    <div id="Gallery">
+        <button id="Previous"> <  </button>
+        <img id="Image" src="./Images/Image-1.jpg" alt="Image-1">
+        <button id="Next"> > </button>
+    </div>
+    <hr>
+    <div  id="grid-gallery" style="display: flex; justify-content: center; margin-right: 5%;
+     margin-left: 10%;">
+        <div style="display: block; height: 10%; ">
+            <img class="grid-image"  onclick="enlargeImage(this)"   src="./Images/Image-1.jpg" alt="">
+            <img class="grid-image"  onclick="enlargeImage(this)"   src="./Images/Image-2.jpg" alt="">
+            <img class="grid-image"  onclick="enlargeImage(this)"   src="./Images/Image-3.jpg" alt="">
+            <img class="grid-image"  onclick="enlargeImage(this)"   src="./Images/Image-4.jpg" alt="">
+            <img class="grid-image"  onclick="enlargeImage(this)"   src="./Images/Image-5.jpg" alt="">
+        </div>
+        <div style="display: block; height: 10%;  ">
+            <img class="grid-image"  onclick="enlargeImage(this)"   src="./Images/Image-6.jpg" alt="">
+            <img class="grid-image"  onclick="enlargeImage(this)"   src="./Images/Image-7.jpg" alt="">
+            <img class="grid-image"  onclick="enlargeImage(this)"   src="./Images/Image-8.jpg" alt="">
+            <img class="grid-image"  onclick="enlargeImage(this)"   src="./Images/Image-9.jpg" alt="">
+            <img class="grid-image"  onclick="enlargeImage(this)"   src="./Images/Image-1.jpg" alt="">
+        </div>
+        <div style="display: block; height: 10%; ">
+            <img class="grid-image"  onclick="enlargeImage(this)"   src="./Images/Image-1.jpg" alt="">
+            <img class="grid-image"  onclick="enlargeImage(this)"   src="./Images/Image-2.jpg" alt="">
+            <img class="grid-image"  onclick="enlargeImage(this)"   src="./Images/Image-3.jpg" alt="">
+            <img class="grid-image"  onclick="enlargeImage(this)"   src="./Images/Image-4.jpg" alt="">
+            <img class="grid-image"  onclick="enlargeImage(this)"   src="./Images/Image-5.jpg" alt="">
+        </div>
+
+    </div>
+    
+    
+    
+</body>
+<script src="./script.js"></script>
+</html>
